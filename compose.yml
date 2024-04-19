@@ -1,0 +1,7 @@
+services:
+  python:
+    build: .
+    volumes:
+      - ./work:/work
+    tty: true
+    init: true
